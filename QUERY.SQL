@@ -22,7 +22,7 @@ SELECT
 FROM
 	users
 WHERE
-	full_name LIKE 'Tanvir%'
+	full_name ILIKE 'Tanvir%'
 	OR full_name ILIKE '%Haque%';
 
 
